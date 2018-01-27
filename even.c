@@ -4,11 +4,9 @@ void main()
 {
 int a;
 scanf("%d",&a);
-if(a>0)
-printf("positive");
-else if(a<0)
-printf("negative");
+if((a%2)==0)
+  printf("even");
 else
-printf("zero");
+  printf("odd");
 getch();
-}
+}  
